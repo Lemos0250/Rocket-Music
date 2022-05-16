@@ -2,13 +2,24 @@
     color: white
 }
 img {
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
+
+    border: solid;
+    border-color: blueviolet;
+}
+
+.container {
+    border: solid;
+    border-color: blueviolet;
+
+    padding: 45px;
+    margin-top: 0%;
 }
 
 body, html {
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
 
     display: flex;
     flex-direction: column;
@@ -18,15 +29,19 @@ body, html {
     justify-content: center;
 
     background-color: #333;
+    font-family: 'Montserrat Alternates', sans-serif;
+
 }
 
 .Infos {
-    font-size: 30px;
-    width: 100%;
+    font-size: 20px;
+    width: 300px;
 }
 
-i {
+.Infos, i {
     font-size: 25px;
+
+    text-decoration: double;
 }
 
 h2 {
@@ -34,29 +49,27 @@ h2 {
 }
 
 .Timer {
-    width: 100%;
-
-    margin-top: 15px;
+    width: 300px;
+    margin-top: 25px;
 }
 
 .Bar {
-    width: 100%;
+    width: 300px;
     height: 10px;
 
     display: flex;
 
-    margin-top: 0%;
-    border: 1px solid white;
+    border: 2px solid blueviolet;
     border-radius: 5px;
 
     align-items: center;
+    justify-content: flex-start;
 }
 
 progress {
-    margin-top: 0%;
 
-    height: 15px;
-    width: 50%;
+    height: 6px;
+    width: 0%;
 }
 
 .Point {
@@ -65,5 +78,39 @@ progress {
     background-color: blueviolet;
     border-radius: 50%;
 
-    margin-left: -2px;
+    margin-left: -10px;
+}
+
+.Time {
+    display: flex;
+    width: 300px;
+
+    justify-content: space-between;
+}
+
+.play-button, .pause-button {
+    font-size: 45px;
+
+    cursor: pointer;
+    align-items: center;
+}
+
+.direction {
+    font-size: 35px;
+
+    display:inline-block;
+    margin-right: 20px;
+    margin-left: 17.5px;
+
+    align-items: center;
+    cursor: pointer;
+}
+
+.pause-button {
+    display: none;
+}
+
+.Player {
+
+    margin-left: 20.5%;
 }
