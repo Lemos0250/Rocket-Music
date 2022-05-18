@@ -13,7 +13,7 @@ img {
     border: solid;
     border-color: blueviolet;
 
-    padding: 45px;
+    padding: 40px;
     margin-top: 0%;
 }
 
@@ -81,6 +81,20 @@ progress {
     margin-left: -10px;
 }
 
+.Rocket {
+    background-color: #333;
+
+   width: 30px;
+   height: 30px;
+   
+   margin-left: -5px;
+   margin-top: -6px;
+
+   border: solid;
+   border-radius: 50%;
+   border-color:blueviolet;
+}
+
 .Time {
     display: flex;
     width: 300px;
@@ -95,6 +109,11 @@ progress {
     align-items: center;
 }
 
+.play-button:hover{
+    color: gray;
+    
+}
+
 .direction {
     font-size: 35px;
 
@@ -106,11 +125,47 @@ progress {
     cursor: pointer;
 }
 
+.direction:hover {
+    color: gray;
+}
+
 .pause-button {
     display: none;
 }
 
 .Player {
 
-    margin-left: 20.5%;
+    width: 300px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 15px;
+}
+/*
+.Bass {
+    width: 50vh;
+    height: 500px;
+
+    border-radius: 50%;
+    border-color: yellow;
+
+    margin-top: -100%;
+    margin-left: 65vw;
+}
+
+.Bass2 {
+    width: 50vh;
+    height: 500px;
+
+    border-radius: 50%;
+    border-color: red;
+
+    margin-top: -100%;
+    margin-right: 65vw;
+}
+*/
+footer { 
+    margin-top: 0%;
 }
