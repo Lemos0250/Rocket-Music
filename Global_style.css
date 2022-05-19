@@ -143,6 +143,23 @@ progress {
 
     margin-top: 15px;
 }
+
+.H2X {
+    color: blueviolet;
+    margin-left: 3%;
+
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Up, .Low {
+    margin-left: 5px;
+    margin-right: 5px;
+
+    cursor: pointer;
+}
+
 /*
 .Bass {
     width: 50vh;

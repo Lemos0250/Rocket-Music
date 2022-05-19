@@ -34,6 +34,8 @@ let nomeMusica = document.querySelector('.Infos h2');
 
 let nomeArtista = document.querySelector('.Infos i');
 
+let line = document.getElementById
+
 renderizarMusica(indexMusica);
 
 
@@ -99,4 +101,9 @@ function segtomin(seg){
     return Minuto + ':' + Segundo
 }
 
+let volume = document.querySelector("#volumi");
+
+volume.addEventListener("change", function(e) {
+Audio.volume = e.currentTarget.value / 100;
+})
 
